@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/main_style.css"/>
+    </head>
+    <body>        
+        <div id="div_header">
+            <h1>TRADUCTOR PSEUDO JAVA</h1>
+            
+        </div>
+        <div id="div_body" >
+            
+            <div id="div_pseudo">
+                <h1 class="h_titulo">PSEUDOCODIGO</h1>
+            <textarea rows="25" cols="35" id="t_pseudo" class="t_texto" required placeholder="Escriba el PseudoCodigo aqui"></textarea>
+            </div>
+            
+            <div id="div_java">
+                <h1 class="h_titulo">CODIGO JAVA</h1>
+            <textarea rows="25" cols="35" id="t_java" class="t_texto" required></textarea>
+            </div>
+            
+            <div id="div_middle">              
+            
+            <p id="t_realizar">Como desea realizar la traduccion</p>
+            <input type="radio" name="tipo_traduccion" value="Interpretado" checked /><br>
+            <input type="radio" name="tipo_traduccion" value="Compilado"/>
+            <input type="button" value="Interpretar" id="b_interpretar"/>
+            
+            </div>
+            
+        </div>
+        
+        <div id="div_footer">
+            <h6>Derechos reservados</h6>            
+        </div>
+    </body>
+</html>
